@@ -19,14 +19,14 @@ $(function() {
                     var bg_pos = (windows_scrolltop - obj.position().top + (obj.height() - 100))
                 }
 
-                // Modifica a posição do background
+                //  Modifica a posição do background
                 obj.css({
-                    'background-position': '50%' + bg_pos + 'px'
+                    'background-position': '50%' + bg_pos + '%'
                 })
 
                 // Animação do primeiro texto
                 obj.children('.texto').css({
-                    'bottom': (windows_scrolltop - obj.position().top + 100) + px
+                    'bottom': (windows_scrolltop - obj.position().top + 100) + vh
                 })
             }
         })
