@@ -1,0 +1,55 @@
+.parallax {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+.tittle {
+    position: absolute;
+    bottom: 0px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto h2 {
+    font-size: 3rem;
+}
+
+.texto p {
+    font-size: 1.2rem;
+    max-width: 50%;
+    text-align: center;
+}
+
+.divisor01 {
+    background-image: url(./img/img1.jpg);
+}
+
+.divisor02 {
+    background-image: url(./img/img2.jpg);
+}
+
+.divisor03 {
+    background-image: url(./img/img3.jpg);
+}
+
+.divisor04 {
+    background-image: url(./img/img4.jpg);
+}
+
+.divisor05 {
+    background-image: url(./img/img5.jpg);
+}
